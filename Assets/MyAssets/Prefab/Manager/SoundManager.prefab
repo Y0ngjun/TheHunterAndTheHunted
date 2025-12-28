@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8231981308103995297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5519725817973908723}
+  - component: {fileID: 7005686645613381059}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5519725817973908723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8231981308103995297}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 231.34235, y: -61.30359, z: 645.77905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7005686645613381059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8231981308103995297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62eacff761d6ed54ab116d476e2039f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stageBgms:
+  - clip: {fileID: 8300000, guid: 1f0318735aa506d43aaf9f37a8a64899, type: 3}
+    localVolume: 1
+  - clip: {fileID: 8300000, guid: 9a70fc7492cbabf46b178cca1eccdd64, type: 3}
+    localVolume: 1
+  - clip: {fileID: 8300000, guid: 5975c6fd2cc66e945bac9f021400b6b2, type: 3}
+    localVolume: 1
+  bgmVolume: 1
+  sfxList:
+  - clip: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: bfc949e009d48694ea05092f535fc633, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: 555573eb2decc7e47bd4ba049226c21e, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: 18e60dfdb5e5f6a4b850664cda06eeff, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: d8c69d4c9ec31224c8a7dd4660d06d18, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: d8c69d4c9ec31224c8a7dd4660d06d18, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: 906efa5021097dd4a830bb93c0a79555, type: 3}
+    localVolume: 0.4
+  - clip: {fileID: 8300000, guid: cefd73b9f757da54f9a90945d406d809, type: 3}
+    localVolume: 0.4
+  sfxVolume: 1
+  sfxChannels: 8
