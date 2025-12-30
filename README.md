@@ -12,3 +12,6 @@ Unity 로 제작한 3D 러너 게임입니다.
 
 ## 플레이 링크
 https://play.unity.com/en/games/3b9fc030-fc97-420c-8a49-305ce51e4eba/thehunterandthehunted
+
+## 원본 저장소
+https://github.com/jbjihwan/The_Hunter_and_The_Hunted
